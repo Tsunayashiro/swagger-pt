@@ -1,7 +1,7 @@
 ---
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: Malicious API Resource Documentation
   description: |
     This is the old API documentation. Find the new version <a href="https://evil.com">here</a>
   version: production
