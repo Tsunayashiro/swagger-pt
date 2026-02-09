@@ -1,0 +1,65 @@
+---
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+    This is the old API documentation. Find the new version <a href="https://evil.com">here</a>
+  version: production
+
+basePath: https://evil.com
+
+produces:
+- application/xml
+- application/json
+
+consumes:
+- application/xml
+- application/json
+
+security:
+- basicAuth: []
+
+paths:
+  "/vuln":
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Mathis Pais De Sousa
+      operationId: findAccounts
+      summary: this is example text
+
+  "/exploit":
+    delete:
+      parameters:
+      - description: |
+          <a href="https://evil.com">blog</a>
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Swagger UI exploit
+      operationId: swagger
+      summary: swagger
+
+    get:
+      parameters:
+      - description: this is example text
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Swagger UI exploit
+      operationId: some_operation
+      summary: this is example text
