@@ -20,16 +20,6 @@ security:
 - basicAuth: []
 
 paths:
-  "/vuln":
-    get:
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-      - Mathis Pais De Sousa
-      operationId: findAccounts
-      summary: this is example text
-
   "/exploit":
     delete:
       parameters:
